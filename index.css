@@ -5,7 +5,7 @@ html, body {
   }
 
   .page {
-    padding: 1% 5%
+    padding: 1% 5%;
   }
 
  .titrePage{
@@ -15,4 +15,6 @@ html, body {
 
  }
 
-
+.imageBanniere{
+  padding: 0% 0%;
+}

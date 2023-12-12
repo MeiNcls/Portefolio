@@ -36,3 +36,24 @@ html[data-theme="dark"] {
   --secondary: #164646;
   --accent: #cc5c5c;
 }
+
+.container{
+  display: inline-grid;
+  grid-template-columns: auto auto auto ;
+  padding: 0.08vw;
+  }
+
+.grid-item{
+  text-align: center;
+  padding: 10px;
+  margin-right: 0.3vw;
+    margin-left: 0.3vw;
+    margin-top: 0.1vh;
+    margin-bottom: 0.1vh;
+}
+
+.Pdg{
+  display: block;
+  max-width: 24vw;
+  max-height: 24vh;
+} 

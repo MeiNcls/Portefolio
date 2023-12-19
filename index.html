@@ -9,11 +9,29 @@
 	</head>
 	<body>
         <div class="page">
-            <h1 class="titrePage">Cheshire Cat</h1>
-            <div  class="imageBanniere">
-                <img src="fond_lune.PNG" alt="Dessin en numérique d'un paysage de nuit" title="Dessin en numérique d'un paysage de nuit">
+            <div class="titrePage">
+                <h1>Cheshire Cat</h1>
+                <button onclick={changetheme} id="theme-button">
+                    <img id="theme-img" src={ChooseThemeIcon()} />
+                </button>
             </div>
- 
+            <div  class="imageBanniere">
+                </br>
+            </div>
+            <div class="container">
+                <div class="grid-item">
+                <a href="test.html"><h5>Carnet de voyage</h5>
+                <img class="Pdg" src="img/Carnet-coiffes.jpg" alt="Carnet de voyage"></a>
+                </div>
+                <div class="grid-item">
+                  <a href="test.html"><h5>Aquarelle</h5>
+                  <img class="Pdg" src="img/plume_aqua.jpg" alt="Aquarelle"></a>
+                </div>
+                  <div class="grid-item">
+                  <a href="test.html"><h5>Digital</h5>
+                  <img class="Pdg" src="img/illu_fenetregoth.png" alt="Digital"></a>
+                </div>
+            </div>
         </div>
   </body>
 </html>

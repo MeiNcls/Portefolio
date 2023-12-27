@@ -15,12 +15,6 @@ body {
 
 }
 
-.imageBanniere {
-  background: url("img/fond_lune.png");
-  height: 100vh;
-  background-repeat: no-repeat;
-}
-
 html[data-theme="light"] {
   --text: #000000;
   --background: #fcfdf7;
@@ -57,3 +51,7 @@ html[data-theme="dark"] {
   max-width: 24vw;
   max-height: 24vh;
 } 
+
+#imghero {
+  width: 100%;
+}

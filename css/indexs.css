@@ -1,0 +1,16 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+}
+
+.page {
+  padding: 1% 5%
+}
+
+.titrePage {
+  text-align: right;
+  font-family: Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serifx;
+  font-weight: bold;
+}

@@ -33,6 +33,9 @@ html[data-theme="dark"] {
 #imgban {
   width: 100%;
 }
+#imgBanP {
+  width: 100%;
+}
 
 .container{
   display: inline-grid;

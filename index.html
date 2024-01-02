@@ -3,7 +3,7 @@
 	<head>
 		<title>Accueil</title>
 		<meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="index.css">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
 		<!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
 		<!--<link rel="icon" href="images/Space_symbol.png"> -->
 	</head>
@@ -11,26 +11,31 @@
         <div class="page">
             <div class="titrePage">
                 <h1>Cheshire Cat</h1>
-                <button onclick={changetheme} id="theme-button">
+                <!--<button onclick={changetheme} id="theme-button">
                     <img id="theme-img" src={ChooseThemeIcon()} />
-                </button>
+                </button> -->
             </div>
-            <div  class="imageBanniere">
-                </br>
+            
+            <div class="banniere">
+                <img id="imgban" src="img/home/fond_lune.png">
             </div>
             <div class="container">
                 <div class="grid-item">
                 <a href="test.html"><h5>Carnet de voyage</h5>
-                <img class="Pdg" src="img/Carnet-coiffes.jpg" alt="Carnet de voyage"></a>
+                <img class="pdg" src="img/home/Carnet-coiffes.jpg" alt="Carnet de voyage"></a>
                 </div>
                 <div class="grid-item">
                   <a href="test.html"><h5>Aquarelle</h5>
-                  <img class="Pdg" src="img/plume_aqua.jpg" alt="Aquarelle"></a>
+                  <img class="pdg" src="img/home/plume_aqua.jpg" alt="Aquarelle"></a>
                 </div>
-                  <div class="grid-item">
+                <div class="grid-item">
                   <a href="test.html"><h5>Digital</h5>
-                  <img class="Pdg" src="img/illu_fenetregoth.png" alt="Digital"></a>
+                  <img class="pdg" src="img/home/illu_fenetregoth.png" alt="Digital"></a>
                 </div>
+                <div class="grid-item">
+                    <a href="test.html"><h5>Portrait</h5>
+                    <img class="pdg" src="img/home/portrait-homepage.jpg" alt="Portrait"></a>
+                  </div>
             </div>
         </div>
   </body>

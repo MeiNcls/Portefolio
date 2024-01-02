@@ -1,0 +1,60 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+}
+
+.titrePage {
+  text-align: right;
+  font-family: Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serifx;
+  font-weight: bold;
+  font-size: 150%;
+
+}
+
+#imgBanP {
+  width: 100%;
+}
+
+.container1{
+    display: inline-grid;
+    align-items: normal;
+    grid-template-columns: auto auto;
+    padding: 1%;
+    text-align: left;
+    text-size-adjust: 50%;
+    width: 98%; 
+    justify-content: center;
+  }
+
+.container2{
+    display: inline-grid;
+    align-items: normal;
+    grid-template-columns: auto auto auto;
+    padding: 1%;
+    text-align: left;
+    text-size-adjust: 50%;
+    width: 98%; 
+    justify-content: center;
+}
+
+.grid-item{
+    padding: 2%;
+    margin-right: 0.5%;
+    margin-left: 0.5%;
+    margin-top: 0.1%;
+    margin-bottom: 0.1%;
+}
+
+.grilleRect{
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+.grilleCarre{
+    display: block;
+    max-width: 100%;
+    max-height: 75%;
+  }
